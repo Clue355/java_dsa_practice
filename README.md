@@ -11,4 +11,5 @@ It has a time complexity of O(log n),
 making it much more efficient than linear search (O(n)) 
 in a sorted array.
 
-[Link to Resource in Repo]()
+[Link to Resource in Repo](https://github.com/Clue355/java_dsa_practice/blob/master/src/BinarySearch/BinarySearchExample.java#L36)
+
