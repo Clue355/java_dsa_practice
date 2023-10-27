@@ -80,3 +80,31 @@ class ShiftedArrays {
         return -1;  // Target not found
     }
 }
+
+// Finding square root of a number
+// what number times itself is the root of the number
+
+class SquareRoot {
+    public int mySqrt(int x) {
+        if (x == 0 || x == 1) {
+            return x;  // Handle edge cases
+        }
+
+        int left = 2, right = x / 2;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            long midSquared = (long) mid * mid;  // Cast to long to avoid integer overflow
+
+            if (midSquared == x) {
+                return mid;  // Exact square root found
+            } else if (midSquared < x) {
+                left = mid + 1;  // Search in the right half
+            } else {
+                right = mid - 1;  // Search in the left half
+            }
+        }
+
+        return right;  // Return the integer part of the square root
+    }
+}
+

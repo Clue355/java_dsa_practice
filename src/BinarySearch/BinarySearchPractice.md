@@ -5,8 +5,16 @@ it may have to be tweaked on some of them in order to find the answer
 
 ## Easy Difficulty
 
+- Search Insert Position
+- [x] [LINK](https://leetcode.com/problems/search-insert-position/)
+
+
+- Binary Search
+- [x] [LINK](https://leetcode.com/problems/binary-search/)
+
+
 - Sqrt(x)
-- [ ] [LINK](https://leetcode.com/problems/sqrtx)
+- [x] [LINK](https://leetcode.com/problems/sqrtx)
 
 
 - Find Smallest Letter Greater Than Target
@@ -15,7 +23,7 @@ it may have to be tweaked on some of them in order to find the answer
 ## Medium Difficulty
 
 - Search in Rotated Sorted Array
-- [ ] [LINK](https://leetcode.com/problems/search-in-rotated-sorted-array)
+- [x] [LINK](https://leetcode.com/problems/search-in-rotated-sorted-array)
 
 
 - Koko Eating Bananas
