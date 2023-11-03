@@ -449,3 +449,29 @@ Linear-time algorithm for M union-find ops on N objects?
 - cost within constant factor of reading in the data
 - in theory, WQUPC is not quite linear
 - in practice, WQUPC is linear
+
+## Union-find applications
+
+- percolation
+- games (Go, Hex)
+- Dynamic connectivity
+- least common ancestor
+- equivalence of finite state automata
+- hoshen-kopelman algorithm in physics
+- hinley-milner polymorphic type inference
+- kruskal's minimum spanning tree algorithm
+- compiling equivalence statements in fortran
+- morphological attribute openings and closing
+- matlabs bwlabel() function in image processing
+
+## percolation
+
+A model for many physical systems:
+- N-by-N grid of sites
+- each site is open with probability p(or blocked with probability 1-p)
+- System percolates iff top and bottom are connected by open sites
+
+![img.png](img.png)
+
+Percolation Examples
+![img_1.png](img_1.png)
